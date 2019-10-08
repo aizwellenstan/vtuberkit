@@ -28,7 +28,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
   sceneClasses:
     Assets/Main.unity:
     - Class: 1
@@ -84,15 +83,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11460}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 11530}
     - Class: 114
-      Script: {instanceID: 11700}
+      Script: {instanceID: 11662}
     - Class: 114
-      Script: {instanceID: 11718}
+      Script: {instanceID: 11702}
     - Class: 114
-      Script: {instanceID: 11884}
+      Script: {instanceID: 11720}
     - Class: 114
-      Script: {instanceID: 18098}
+      Script: {instanceID: 11886}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -652,6 +651,12 @@ ScriptsOnlyBuild:
     className: SimpleLipSyncer
   - hash:
       serializedVersion: 2
+      Hash: 7a5e28c8af5776b5f3620b969a63eff9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GazeController
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -824,13 +829,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 7a5e28c8af5776b5f3620b969a63eff9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GazeController
   platform: 2
   scenePathNames:
   - Assets/Main.unity
-  playerPath: /Users/raphtalia/workspace/vtuber/VTuberKit/VTuberKit/VTuberKit2.app
+  playerPath: /Users/raphtalia/workspace/vtuber/VTuberKit/VTuberKit/VTuberKit.app
